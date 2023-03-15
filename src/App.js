@@ -5,7 +5,7 @@ import useStyles from './styles';
 
 import NewsCards from './components/NewsCards/NewsCards';
 
-const alanKey = '2ae64469f7ea9365acb8bd260061228d2e956eca572e1d8b807a3e2338fdd0dc/stage';
+const alanKey = 'Enter Your AlanAI key';
 
 const App = () => {
     const [activeArticle, setActiveArticle] = useState(-1);
