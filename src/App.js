@@ -5,7 +5,7 @@ import useStyles from './styles';
 
 import NewsCards from './components/NewsCards/NewsCards';
 
-const alanKey = 'Enter Your AlanAI key';
+const alanKey = '2ae64469f7ea9365acb8bd260061228d2e956eca572e1d8b807a3e2338fdd0dc/stage';
 
 const App = () => {
     const [activeArticle, setActiveArticle] = useState(-1);
@@ -42,8 +42,9 @@ const App = () => {
 
     return(
         <div>
+        <h1 className='heading'>NEWS TIMES</h1>
             <div className={classes.logoContainer}>
-            <img src="https://media.istockphoto.com/id/1206796363/photo/ai-machine-learning-hands-of-robot-and-human-touching-on-big-data-network-connection.jpg?s=612x612&w=0&k=20&c=xIX5Bz7h50B83cCZG_gXkyZSOu-mG93DtOcNK7RNEAo=" className={classes.alanLogo} alt="logo" />
+            {/* <img src="https://media.istockphoto.com/id/1206796363/photo/ai-machine-learning-hands-of-robot-and-human-touching-on-big-data-network-connection.jpg?s=612x612&w=0&k=20&c=xIX5Bz7h50B83cCZG_gXkyZSOu-mG93DtOcNK7RNEAo=" className={classes.alanLogo} alt="logo" /> */}
             </div>
             <NewsCards articles={newsArticles} activeArticle={activeArticle}  />
         </div>
